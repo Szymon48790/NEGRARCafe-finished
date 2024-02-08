@@ -1,0 +1,41 @@
+.coffee-heading {
+  text-align: center;
+  padding: 4.5rem 6.4rem 5rem 6.4rem;
+}
+
+.coffee-text-box {
+  /* border: 2px solid rgba(0, 0, 0, 0.4); */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 15rem 8rem 15rem;
+  height: 60rem;
+
+  background-image: url(img/coffee-back-2.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.heading-text {
+  text-align: center;
+  margin: 5rem 5rem 5.5rem 5rem;
+}
+
+.coffee-heading-tertiary {
+  font-size: 6rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffff;
+}
+
+.coffee-text {
+  font-size: 2.5rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #ffff;
+}
+
+.description-text {
+  text-align: center;
+  margin: 4rem 7rem 0 7rem;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>NEGRAR Caffe</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="logo" alt="Negrar cafe logo" src="img/logoo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="shop.html">SHOP</a></li>
+          <li><a class="main-nav-link" href="coffee.html">COFFEE</a></li>
+          <li><a class="main-nav-link" href="blog.html">BLOG</a></li>
+          <li><a class="main-nav-link nav-cta" href="newsletter.html">NEWSLETTER</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Nasza kawiarnia to miejsce dla ciebie!</h1>
+            <p class="hero-description">
+              Zanurz się w atmosferze przytulnej kawiarni, gdzie aromat świeżo palonej kawy wita Cię już przy wejściu. 
+              Nasza kawiarnia to miejsce, gdzie spotykają się miłośnicy dobrej kawy i wyśmienitych wypieków. 
+              Zrelaksuj się z ulubioną książką lub pracuj przy komputerze, ciesząc się przyjemnością wyjątkowych napojów i pysznych przekąsek. 
+              Nasz przyjazny personel zawsze służy pomocą, dbając o to, aby Twój pobyt był niezapomniany.
+            </p>
+            <a href="newsletter.html" class="btn btn--full margin-right-sm">NEWSLETTER</a>
+            <a href="#section-meals" class="btn btn--outline">LEARN MORE &darr;</a>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/caffee-main.jpg"
+              class="hero-img"
+              alt="three persons holdng three coffees"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Menu</span>
+          <h2 class="heading-secoundary">
+            Nasza kawiarnia oferuje
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/caffee-5.jpg"
+              class="meal-img"
+              alt="photo of two coffe"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Kawy</p>
+              <ul class="meal-atributes">
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="infinite-outline"></ion-icon
+                  ><span><strong>20+</strong> types</span>
+                </li>
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="cash-outline"></ion-icon
+                  ><span>price: <strong>12zł-25zł</strong></span>
+                </li>
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong>4.7</strong> rating (468)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="img/dessert-2.jpg"
+              class="meal-img"
+              alt="photo of two coffe"
+            />
+            <div class="meal-content">
+              <p class="meal-title">Desery</p>
+              <ul class="meal-atributes">
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="infinite-outline"></ion-icon
+                  ><span><strong>10+</strong> types</span>
+                </li>
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="cash-outline"></ion-icon
+                  ><span>price: <strong>10zł-30zł</strong></span>
+                </li>
+                <li class="meal-atribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong>4.8</strong> rating (349)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="options">
+            <h3 class="heading-tertiary">Polecamy:</h3>
+            <ul class="list">
+              <li class="list-item list-bald">
+                <ion-icon
+                  class="list-icon-white"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span><strong>Kawy</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Espresso</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Cappuccino</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Caffe Latte</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Latte Macchiato</span>
+              </li>
+              <li class="list-item list-bald">
+                <ion-icon
+                  class="list-icon-white"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span><strong>Desery</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Sernki</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Torciki</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Babeczki</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>Lody</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="shop.html" class="link">See all menu &rarr;</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo-footer" alt="Negrar cafe logo" src="img/logoo.png" />
+          </a>
+
+          <ul class="social-links grid--4-cols">
+            <li><a class="footer-link" href="#"><ion-icon class="social-icons" name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer-link" href="https://www.facebook.com/UniwersytetDolnoslaskiDSW/?locale=pl_PL"><ion-icon class="social-icons" name="logo-facebook"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icons" name="logo-twitter"></ion-icon></a></li>
+            <li><a class="footer-link" href="https://www.twitch.tv/stasiu025"><ion-icon class="social-icons" name="logo-twitch"></ion-icon></a></li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by NEGRAR Cafe, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro -
+              RJ, Brazylia
+            </p>
+              <a class="footer-link" href="mailto:NEGRARCafe@gmail.com">NEGRARCafe@gmail.com</a><br />
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Deliver partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="newsletter.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Shop NEGRARCafe</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="logo" alt="Negrar cafe logo" src="img/logoo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="shop.html">SHOP</a></li>
+          <li><a class="main-nav-link" href="coffee.html">COFFEE</a></li>
+          <li><a class="main-nav-link" href="blog.html">BLOG</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="newsletter.html"
+              >NEWSLETTER</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="heading-primary heading">Nasza kawiarnia oferuje</h1>
+
+    <div class="container-menu grid grid--3-cols ">
+      <div class="menu">
+        <img src="img/americano.jpg" class="menu-img" alt="photo of americano coffee" />
+        <div class="menu-content">
+          <p class="menu-title">Americano</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/ice-coffee.jpg" class="menu-img" alt="photo of ice coffee" />
+        <div class="menu-content">
+          <p class="menu-title">Ice Coffee</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/capuccino.jpg" class="menu-img" alt="photo of capuccino" />
+        <div class="menu-content">
+          <p class="menu-title">Capuccino</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/caffe-latte.jpg" class="menu-img" alt="photo of caffe latte" />
+        <div class="menu-content">
+          <p class="menu-title">Caffe Latte</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/whisky.jpg" class="menu-img" alt="photo of jack daniels" />
+        <div class="menu-content">
+          <p class="menu-title">Janko Muzykant <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-explicit" viewBox="0 0 16 16">
+            <path d="M6.826 10.88H10.5V12h-5V4.002h5v1.12H6.826V7.4h3.457v1.073H6.826z"/>
+            <path d="M2.5 0A2.5 2.5 0 0 0 0 2.5v11A2.5 2.5 0 0 0 2.5 16h11a2.5 2.5 0 0 0 2.5-2.5v-11A2.5 2.5 0 0 0 13.5 0zM1 2.5A1.5 1.5 0 0 1 2.5 1h11A1.5 1.5 0 0 1 15 2.5v11a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 13.5z"/>
+          </svg></p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/tiramisu.jpg" class="menu-img" alt="photo of tiramisu" />
+        <div class="menu-content">
+          <p class="menu-title">Tiramisu</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/babeczki.jpg" class="menu-img" alt="photo of cupcakes" />
+        <div class="menu-content">
+          <p class="menu-title">Babeczki</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/paczki.jpg" class="menu-img" alt="photo of donuts" />
+        <div class="menu-content">
+          <p class="menu-title">Pączki</p>
+        </div>
+      </div>
+      <div class="menu">
+        <img src="img/macaron.jpg" class="menu-img" alt="photo of macarons" />
+        <div class="menu-content">
+          <p class="menu-title">Macaroni</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-ast">
+      <div class="container-ast">
+        <div class="cta">
+          <div class="ast-text-box">
+            <h2 class="heading-secoundary">Twoja AI asystentka Kasia.</h2>
+            <p class="ast-text">Jeśli masz jakieś pytania nie peniaj i pisz śmiało do naszej, jak że urokliwej Kasi.</p>
+
+            <form class="ast-form" action="#">
+              <textarea class="textarea-grid" rows="9" maxlength="2000" placeholder="Podziel się z nami swoją opinią" required></textarea>
+
+              <button class="btn btn--form">Send a message</button>
+            </form>
+          </div>
+
+          <div
+            class="ast-img-box"
+            role="img"
+            aria-label="Photo of ginger woman"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="container-assistant grid grid--2-cols">
+      <div class="assistant">
+        <img src="img/ginger.jpg" class="woman menu" alt="ginger woman" />
+      </div>
+      <h2 class="heading-secoundary">
+        If you have any questions, ask our consultant Kasia.
+      </h2>
+    </div> -->
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo-footer" alt="Negrar cafe logo" src="img/logoo.png" />
+          </a>
+
+          <ul class="social-links grid--4-cols">
+            <li><a class="footer-link" href="#"><ion-icon class="social-icons" name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer-link" href="https://www.facebook.com/UniwersytetDolnoslaskiDSW/?locale=pl_PL"><ion-icon class="social-icons" name="logo-facebook"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icons" name="logo-twitter"></ion-icon></a></li>
+            <li><a class="footer-link" href="https://www.twitch.tv/stasiu025"><ion-icon class="social-icons" name="logo-twitch"></ion-icon></a></li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by NEGRAR Cafe, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Parque Nacional da Tijuca - Alto da Boa Vista, Rio de Janeiro -
+              RJ, Brazylia
+            </p>
+              <a class="footer-link" href="mailto:NEGRARCafe@gmail.com">NEGRARCafe@gmail.com</a><br />
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Deliver partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

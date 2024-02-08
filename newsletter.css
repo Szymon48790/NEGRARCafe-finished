@@ -1,0 +1,114 @@
+.section-cta {
+  padding: 0.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #fc8721; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  box-sizing: border-box;
+
+  background-image: linear-gradient(to right bottom, #fd9f4d, #fc8721);
+  overflow: hidden;
+
+  /* temp */
+  height: 51rem;
+  width: auto;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #4c280a;
+}
+
+.cta .heading-secoundary {
+  color: #4c280a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: url("img/caffee-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-cta {
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 17rem auto;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #f7f2ef;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-from input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(245, 225, 208);
+}
+
+.maps-container {
+  /* width: 200rem; */
+  background-color: #f5cba7;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.maps-text {
+  background-color: #f5cba7;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.maps-heading {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
+.maps {
+  box-shadow: 0 0 0 4px #4c280a;
+  border-radius: 15px;
+}
